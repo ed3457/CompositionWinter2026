@@ -17,7 +17,7 @@ public:
 	string getName(); 
 
 	void setAddress(Address a);
-	Address getAddress();
+	Address & getAddress();
 
 };
 

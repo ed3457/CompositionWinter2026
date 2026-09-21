@@ -26,7 +26,7 @@ void Department::setAddress(Address a)
 	deptAddress = a;
 }
 
-Address Department::getAddress()
+Address & Department::getAddress()
 {
 	return deptAddress;
 }
