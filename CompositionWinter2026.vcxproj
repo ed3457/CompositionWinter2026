@@ -125,9 +125,11 @@
   <ItemGroup>
     <ClCompile Include="Address.cpp" />
     <ClCompile Include="CompositionWinter2026.cpp" />
+    <ClCompile Include="Department.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Address.h" />
+    <ClInclude Include="Department.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
